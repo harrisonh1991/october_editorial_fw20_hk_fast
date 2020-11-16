@@ -5,7 +5,6 @@ import Hero from '../components/Hero/Hero.jsx';
 import ProductShow from "../components/productShow/productShow.jsx";
 import Image from '../components/Image/image.jsx';
 import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
-import {ShopAll} from '../components/shopAll/shopAll.jsx';
 
 const App = () => (
     <article className="App">
@@ -35,29 +34,29 @@ const App = () => (
                 photosTags={['STONE ISLAND']}
                 triggerHook="onLeave"
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'JUUOC839P61MFSVX',
-                            name: '饰口袋连帽风衣',
-                            brand: 'JUUN.J',
+                            sku: 'SLAJK5JKBLKMFBKX',
+                            brand: 'STAMPD',
+                            name: 'Harness strap utility vest bomber jacket',
                         },
                         {
-                            sku: 'QJXJK601933MFBKX',
-                            name: '饰扣带多口袋设计夹克',
-                            brand: 'MCQ',
+                            sku: 'J%2BXPTPAM15CMFBKX',
+                            brand: '_JULIUS',
+                            name: 'Distressed textured cargo pants',
                         },
                         {
-                            sku: 'OFWJKPAJK10MCBKX',
-                            name: 'Logo 缝饰配口袋夹克',
-                            brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            sku: 'NXXPT2CP010MFGRX',
+                            brand: 'N.HOOLYWOOD',
+                            name: 'Belted cargo pants',
                         },
                         {
-                            sku: 'LAVVCTAW202MFGRX',
-                            name: '口袋装饰绗缝马甲',
-                            brand: 'LAVENHAM',
+                            sku: 'ENGVCF1C008MFGRX',
+                            brand: 'ENGINEERED GARMENTS',
+                            name: 'Panelled patch pocket vest jacket',
                         }
                     ]
                 }}
@@ -81,29 +80,29 @@ const App = () => (
                 }]}
                 photosTags={['TOGA ARCHIVES', 'COMME DES GARÇONS HOMME PLUS']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
+                            sku: '07XCDHFT029MFORX',
+                            brand: 'Comme des Garçons HOMME',
+                            name: 'Snowflake zip cardigan',
+                        },
+                        {
+                            sku: 'NEDCDHM273MMFNYX',
+                            brand: 'NEEDLES',
+                            name: 'Brushed mohair cardigan',
+                        },
+                        {
+                            sku: 'BBKCDKT9104MFBKX',
+                            brand: 'BAPE BLACK',
+                            name: 'Pattern intarsia cardigan',
+                        },
+                        {
                             sku: 'OFWCDSR0816MFBGX',
-                            name: '饰飘带针织开衫',
                             brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
-                        },
-                        {
-                            sku: 'CPXCDAZN058X7NYX',
-                            name: '爱心缝饰开衫',
-                            brand: 'Play Comme des Garçons',
-                        },
-                        {
-                            sku: 'ANXCD0092KAMEORX',
-                            name: '系扣针织开衫',
-                            brand: 'Acne Studios',
-                        },
-                        {
-                            sku: 'QJXCD603760MFBLZ',
-                            name: '花朵嵌花针织开衫',
-                            brand: 'MCQ',
+                            name: 'Bandana woven cardigan',
                         }
                     ]
                 }}
@@ -135,29 +134,29 @@ const App = () => (
                 }]}
                 photosTags={['A.P.C']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'ZVXOCCD0602HFGYX',
-                            name: 'Marlo 饰口袋格纹外套',
-                            brand: 'Zadig & Voltaire',
+                            sku: 'JZXSTB02605MFBGX',
+                            brand: 'JUNYA WATANABE',
+                            name: 'Check panelled shirt',
                         },
                         {
-                            sku: 'OFWJKPB3611MFBKX',
-                            name: '箭头缝饰格纹连帽夹克',
-                            brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            sku: '07XJKHFJ015MFNYX',
+                            brand: 'Comme des Garçons HOMME',
+                            name: 'Check contrast hem caban jacket',
                         },
                         {
-                            sku: 'PMASTROGAHIMFYEX',
-                            name: '泼墨设计饰 logo 格纹衬衫',
-                            brand: 'Palm Angels',
+                            sku: 'MHRST5SH113MFBWX',
+                            brand: 'Mihara Yasuhiro',
+                            name: 'Destroyed plaid shirt',
                         },
                         {
-                            sku: 'TBECGB06741MFBKX',
-                            name: '饰 logo 千鸟格纹手拿包',
-                            brand: 'THOM BROWNE',
+                            sku: 'PMAJKBB0401MFBLZ',
+                            brand: 'PALM ANGELS',
+                            name: 'Plaid track jacket',
                         }
                     ]
                 }}
@@ -181,29 +180,29 @@ const App = () => (
                 }]}
                 photosTags={['AMI', 'A.P.C', 'N.HOLLYWOOD']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'OFWSNAR7712MFRDX',
-                            name: '箭头装饰拼色运动鞋',
+                            sku: 'OFWKNPK5412MFRDX',
                             brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            name: 'Pascal sweater',
                         },
                         {
-                            sku: '0ZXPTM152010ERDX',
-                            name: '老虎边饰休闲裤',
-                            brand: 'A BATHING APE®',
-                        },
-                        {
-                            sku: 'OFWSWDE2512MFRDX',
-                            name: '斜纹边饰卫衣',
-                            brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            sku: 'CDXPTP03105MFRDX',
+                            brand: 'Comme des Garçons HOMME PLUS',
+                            name: 'Cropped pants',
                         },
                         {
                             sku: 'PMACPCR0603MFRDX',
-                            name: 'Logo 刺绣棒球帽',
-                            brand: 'Palm Angels',
+                            brand: 'PALM ANGELS',
+                            name: 'Classic logo cap',
+                        },
+                        {
+                            sku: 'OFWSNVD8910MFRDX',
+                            brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            name: 'Out of office "ooo" sneakers',
                         }
                     ]
                 }}
@@ -227,39 +226,33 @@ const App = () => (
                 }]}
                 photosTags={['MAISON MARGIELA', 'COMME DES GARÇONS HOMME PLUS', 'MIHARA YASUHIRO']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'JUUJK64P10PMFBLX',
-                            name: '饰口袋水洗牛仔夹克',
-                            brand: 'JUUN.J',
-                        },
-                        {
-                            sku: '0ZXJKM10004XENYX',
-                            name: '挖剪细节直排扣外套',
-                            brand: 'A BATHING APE®',
-                        },
-                        {
-                            sku: 'ZVXJNCA3001HFBLX',
-                            name: 'David 饰标语牛仔裤',
-                            brand: 'Zadig & Voltaire',
-                        },
-                        {
-                            sku: 'OFWJNSB0514MFBKX',
-                            name: '饰“BELT”印花腰带牛仔裤',
+                            sku: 'OFWJN394441MDBKZ',
                             brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            name: 'X EV BRAVADO embroidered denim jeans',
+                        },
+                        {
+                            sku: 'JUUJK939PD6MFGYL',
+                            brand: 'JUUN.J',
+                            name: 'Washed denim jacket',
+                        },
+                        {
+                            sku: 'HFDBG02K201MFBLX',
+                            brand: 'HONEY FUCKING DIJON',
+                            name: 'Denim tote bag',
+                        },
+                        {
+                            sku: '0ZXJKM10004XEBKX',
+                            brand: 'A BATHING APE®',
+                            name: 'Relaxed Shark Hoodie Denim jacket',
                         }
                     ]
                 }}
             />
-            <ShopAll 
-                cta={{
-                    link: "/b_it/OCT-EDITORIAL-M",
-                    content: 'SHOP ALL'
-                }}
-            />  
             <RedirectBannerCta media={(
             <Image image={{mobile: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/1605496756776329.jpg', desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967567286747.jpg'}}/> 
             )} 
@@ -268,7 +261,7 @@ const App = () => (
                 content: 'Click here to see the curated guide.'
             }}
             cta={{
-                link: '/b_it/landingPage/november-fw20-w',
+                link: '/b_it/landingPage/trend-editorial-w',
                 content: 'DISCOVER NOW'
             }}
             />

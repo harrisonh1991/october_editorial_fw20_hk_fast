@@ -5,7 +5,6 @@ import Hero from '../components/Hero/Hero.jsx';
 import ProductShow from "../components/productShow/productShow.jsx";
 import Image from '../components/Image/image.jsx';
 import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
-import {ShopAll} from '../components/shopAll/shopAll.jsx';
 
 const App = () => (
     <article className="App">
@@ -35,29 +34,29 @@ const App = () => (
                 photosTags={['KOLOR', 'Ports Pure']}
                 triggerHook="onLeave"
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'ZVXPTCE0110FFGYX',
-                            name: 'Peter 饰口袋格纹休闲裤',
-                            brand: 'Zadig & Voltaire',
-                        },
-                        {
-                            sku: 'JNPDSPW2A7WDFNYZ',
-                            name: '褶饰拼接格纹连衣裙',
-                            brand: 'SJYP',
-                        },
-                        {
-                            sku: 'ANXKNA60218XFRDZ',
-                            name: '格纹落肩针织衫',
-                            brand: 'Acne Studios',
+                            sku: 'IROOCCOCHAXXFRDZ',
+                            brand: 'IRO',
+                            name: 'Cocha plaid overcoat',
                         },
                         {
                             sku: 'MSGOC05Y667AFBGZ',
-                            name: '饰腰带格纹外套',
                             brand: 'MSGM',
+                            name: 'Belted plaid overcoat',
+                        },
+                        {
+                            sku: 'MMXPTA0530SXFBWX',
+                            brand: 'MAISON MARGIELA',
+                            name: 'Plaid tailored trousers',
+                        },
+                        {
+                            sku: 'JNPDSPW2A7WDFNYZ',
+                            brand: 'SJYP',
+                            name: 'Layered plaid dress',
                         }
                     ]
                 }}
@@ -81,29 +80,29 @@ const App = () => (
                 }]}
                 photosTags={['Y\'s']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'MHRJK5BL161XFPPH',
-                            name: '拼接设计飞行员夹克',
-                            brand: 'Mihara Yasuhiro',
+                            sku: 'MFRKNSW721FXFKHX',
+                            brand: 'MAISON FLANEUR',
+                            name: 'Patchwork sweater',
                         },
                         {
-                            sku: 'JNPJKPW2A7WAFNYZ',
-                            name: '格纹拼接仿两件式西装外套',
-                            brand: 'SJYP',
+                            sku: 'JLXSK355054XFIVZ',
+                            brand: 'JIL SANDER',
+                            name: 'Self-tie patchwork skirt',
                         },
                         {
-                            sku: 'JNPSWPW2A9KAFBWZ',
-                            name: '饰 logo 针织拼接卫衣',
-                            brand: 'SJYP',
+                            sku: 'PPPJKJ02101CFBLX',
+                            brand: 'PortsPURE',
+                            name: 'Patchwork denim jacket',
                         },
                         {
-                            sku: '5KXSKS05120XFNYX',
-                            name: '材质拼接不对称半身裙',
-                            brand: 'KOLOR',
+                            sku: 'YZXJKC03801XFWHX',
+                            brand: 'Y\'s',
+                            name: 'Patchwork jacket',
                         }
                     ]
                 }}
@@ -135,29 +134,29 @@ const App = () => (
                 }]}
                 photosTags={['Comme des Garçons', 'Simone Rocha', 'GLADYS TAMEZ MILLINERY']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'N21DS835593CFWHX',
-                            name: '褶饰叠层连衣裙',
-                            brand: 'N°21',
+                            sku: 'SMRDS702005XFBKX',
+                            brand: 'Simone Rocha',
+                            name: 'Tulle sleeves dress',
+                        },
+                        {
+                            sku: 'ZMMDS8962DLXFWHB',
+                            brand: 'ZIMMERMANN',
+                            name: 'Ladybeetle bow-tie dress',
+                        },
+                        {
+                            sku: 'ATNDSFD2014XFBGX',
+                            brand: 'ACT NO.1',
+                            name: 'Tulle ruffles layered dress',
                         },
                         {
                             sku: 'RDVDSA145BSXFPKL',
-                            name: '褶饰薄纱泡泡袖连衣裙',
                             brand: 'REDValentino',
-                        },
-                        {
-                            sku: 'RDVTPB00UT9XEWHX',
-                            name: '透视效果蕾丝拼接上衣',
-                            brand: 'REDValentino',
-                        },
-                        {
-                            sku: 'SMRTETS284BXFWHX',
-                            name: '珠饰蕾丝叠层 T 恤',
-                            brand: 'Simone Rocha',
+                            name: 'Ruffles-trimmed dress',
                         }
                     ]
                 }}
@@ -182,29 +181,29 @@ const App = () => (
                 }]}
                 photosTags={['ZUCCa', 'OFF-WHITE c/o VIRGIL ABLOH']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'ZVXSKCU1402FFBDX',
-                            name: 'Joslin Cuir 褶皱皮革半身裙',
-                            brand: 'Zadig & Voltaire',
+                            sku: 'DOOSK001202XFBKX',
+                            brand: 'D\'DEMOO',
+                            name: 'Asymmetrical faux leather skirt',
                         },
                         {
-                            sku: 'ZVXSPCU1407FFBKX',
-                            name: '褶皱效果皮革感短裤',
-                            brand: 'Zadig & Voltaire',
-                        },
-                        {
-                            sku: 'ZVXLECC1402FFBWX',
-                            name: '双口袋皮革夹克',
-                            brand: 'Zadig & Voltaire',
-                        },
-                        {
-                            sku: 'ANXLE1AZ166XDBKX',
-                            name: '皮革机车夹克',
+                            sku: 'ANXLBAD0260OFWHX',
                             brand: 'Acne Studios',
+                            name: 'Square toe leather boots',
+                        },
+                        {
+                            sku: 'IROLEWF09LEXDBKX',
+                            brand: 'IRO',
+                            name: 'Ashville leather jacket',
+                        },
+                        {
+                            sku: 'JAQBG03BA05XFBKX',
+                            brand: 'JACQUEMUS',
+                            name: 'Le petite Chiquito leather bag',
                         }
                     ]
                 }}
@@ -228,39 +227,33 @@ const App = () => (
                 }]}
                 photosTags={['Comme des Garçons']}
                 products={{
-                    shopUrl: "https://cn.iteshop.com/b_it/item/",
+                    shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
                     imageUrl_end: "-pdp-1.jpg?x-oss-process=image/resize,w_460,h_574,limit_0,m_pad" ,
                     lists: [
                         {
-                            sku: 'ZVXJKCP0202FFBDX',
-                            name: 'Visko 饰口袋天鹅绒西装外套',
-                            brand: 'Zadig & Voltaire',
+                            sku: 'N%2BXJK042014XFRDD',
+                            brand: 'Proenza Schouler',
+                            name: 'Self-tie blazer',
                         },
                         {
-                            sku: 'OFWOC222011XFBKX',
-                            name: '挖剪细节直排扣外套',
-                            brand: 'OFF-WHITE c/o VIRGIL ABLOH™',
+                            sku: 'JZWJKJFJ022XFMLX',
+                            brand: 'JUNYA WATANABE WOMEN',
+                            name: 'Belted contrast plaid faux leather blazer',
                         },
                         {
-                            sku: 'QJXOC628893XFBKX',
-                            name: '马甲拼接系扣外套',
-                            brand: 'MCQ',
+                            sku: 'MSGJKG10711BFPKL',
+                            brand: 'MSGM',
+                            name: 'Tailored blazer',
                         },
                         {
-                            sku: 'ZVXJKCA0204FFBGX',
-                            name: 'Viva 星星缀饰西装外套',
-                            brand: 'Zadig & Voltaire',
+                            sku: 'CAXJKGFJ031XFBKX',
+                            brand: 'Comme Des Garçons',
+                            name: 'Panelled hem blazer jacket',
                         }
                     ]
                 }}
             />
-            <ShopAll 
-                cta={{
-                    link: "/b_it/OCT-EDITORIAL-W",
-                    content: 'SHOP ALL'
-                }}
-            />  
             <RedirectBannerCta media={(
             <Image image={{mobile: '//itmall-resources.oss-cn-hangzhou.aliyuncs.com/4/2020/10/14/16026483886741974.jpg', desktop: '//itmall-resources.oss-cn-hangzhou.aliyuncs.com/4/2020/10/14/16026483834569700.jpg'}}/> 
             )} 
@@ -269,7 +262,7 @@ const App = () => (
                 content: 'Click here to see the curated guide.'
             }}
             cta={{
-                link: '/b_it/landingPage/november-fw20-m',
+                link: '/b_it/landingPage/trend-editorial-m',
                 content: 'DISCOVER NOW'
             }}
             />
