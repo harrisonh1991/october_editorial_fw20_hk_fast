@@ -16,7 +16,6 @@
     "react-lazyload": "^3.0.0",
     "react-loadable": "^5.5.0",
     "react-responsive": "^8.1.0",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-scrollmagic": "^2.2.0",
     "scrollmagic": "^2.0.7",
@@ -26,10 +25,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:bit_men": "REACT_APP_PAGE=bit_men react-scripts build",
-    "build:bit_women": "REACT_APP_PAGE=bit_women react-scripts build",
-    "build:sit_men": "REACT_APP_PAGE=sit_men react-scripts build",
-    "build:sit_women": "REACT_APP_PAGE=sit_women react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

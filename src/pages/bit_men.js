@@ -1,13 +1,11 @@
 import React from 'react';
-import "core-js/stable";
-import "regenerator-runtime/runtime";
 import Hero from '../components/Hero/Hero.jsx';
 import ProductShow from "../components/productShow/productShow.jsx";
 import Image from '../components/Image/image.jsx';
 import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
 
 const BitMen = () => (
-    <article className="App">
+    <>
         <Hero {...{
                 banner: <Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566866908.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566252739.jpg'}}/>,
                 title: 'The Sartorial Escape',
@@ -267,7 +265,7 @@ const BitMen = () => (
             }}
             />
         </main>
-    </article>
+    </>
 );
 
 export default BitMen;
