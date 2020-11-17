@@ -1,0 +1,33 @@
+@import "framework";
+
+.container{
+    margin-top: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin: 0;
+}
+
+.content{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 40px;
+    @include maxWidth(677px);
+}
+
+@include media-min($rwd-pc-hd){
+
+    .container{
+        margin-top: 18px;
+    }
+
+    .title{
+        font-size: 26px;
+    }
+
+    .content{
+        margin-top: 54px;
+    }
+
+}

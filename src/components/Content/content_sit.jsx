@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from '../Image/image.jsx';
-import styles from './styles/content.module.scss'; 
+import styles from './styles/content_sit.module.scss'; 
 
-const Content = props => {
+const ContentSit = props => {
 
     const { image, title, content } = props;
 
@@ -22,4 +22,4 @@ const Content = props => {
 
 }
 
-export default Content;
+export default ContentSit;

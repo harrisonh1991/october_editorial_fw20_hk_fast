@@ -6,12 +6,13 @@ import ProductShow from "../components/productShow/productShow.jsx";
 import Image from '../components/Image/image.jsx';
 import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
 
-const App = () => (
+const BitMen = () => (
     <article className="App">
-        <Hero 
-            banner={<Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566866908.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566252739.jpg'}}/>}
-            title={'The Sartorial Escape'}
-            content="The shedding of autumn leaves mark a time of great fluidity and change, but the fashion landscape for FW20 conversely sees a graceful return to the reliable, timeless trends of decades past. This winter, dive into an ode to classics – but with a modern twist. From traditional autumn prints to dark romantic Victoriana, discover our selection of the season’s coolest womenswear looks."
+        <Hero {...{
+                banner: <Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566866908.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566252739.jpg'}}/>,
+                title: 'The Sartorial Escape',
+                content: "The shedding of autumn leaves mark a time of great fluidity and change, but the fashion landscape for FW20 conversely sees a graceful return to the reliable, timeless trends of decades past. This winter, dive into an ode to classics – but with a modern twist. From traditional autumn prints to dark romantic Victoriana, discover our selection of the season’s coolest womenswear looks."
+            }}
         />
         <main className="main">
             <ProductShow 
@@ -78,7 +79,7 @@ const App = () => (
                     to: {rotation:0},
                     duration: 300,
                 }]}
-                photosTags={['TOGA ARCHIVES', 'COMME DES GARÇONS HOMME PLUS']}
+                photosTags={['TOGA ARCHIVES', 'Comme Des Garçons HOMME PLUS']}
                 products={{
                     shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
@@ -269,4 +270,4 @@ const App = () => (
     </article>
 );
 
-export default App;
+export default BitMen;

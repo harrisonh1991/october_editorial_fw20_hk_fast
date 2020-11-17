@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './styles/redirectBannerCta.module.scss'
-import { CtaBit } from '../Cta/cta.jsx';
+import { CtaBit } from '../Cta/cta';
 
 const RedirectBannerCta = props => {
 
