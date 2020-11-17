@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './styles/content2.module.scss';
+import styles from './styles/content2_sit.module.scss';
 
-const Content2 = props => {
+const Content2Sit = props => {
 
     const { title, content } = props;
 
@@ -18,4 +18,4 @@ const Content2 = props => {
 
 }
 
-export default Content2;
+export default Content2Sit;

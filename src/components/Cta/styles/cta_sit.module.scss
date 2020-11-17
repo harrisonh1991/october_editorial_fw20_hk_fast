@@ -1,0 +1,41 @@
+@import "framework";
+
+.cta{
+    transition: all .3s linear;
+    border: 1px solid black;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    position: relative;
+    &__sit{
+        box-shadow: 3px 3px 0 #f7ce46;
+        text-align: left;
+        padding: 15px 18px;
+
+        &:hover{
+            background-color: #f7ce46;
+            box-shadow: 3px 3px 0 black;
+        }
+
+        &_icon{
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.icon{
+    &_sit{
+        position: absolute;
+        right: 18px;
+    }
+}
+
+.icon{
+    font-size: 12px;
+}

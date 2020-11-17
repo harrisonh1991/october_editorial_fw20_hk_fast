@@ -6,7 +6,7 @@ import ProductShow from "../components/productShow/productShow.jsx";
 import Image from '../components/Image/image.jsx';
 import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
 
-const App = () => (
+const BitWomen = () => (
     <article className="App">
         <Hero 
             banner={<Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967569764634.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967583768805.jpg'}}/>}
@@ -31,7 +31,7 @@ const App = () => (
                     to: {rotation:0},
                     duration: '300'
                 }]}
-                photosTags={['KOLOR', 'Ports Pure']}
+                photosTags={['KOLOR', 'PORTS PURE']}
                 triggerHook="onLeave"
                 products={{
                     shopUrl: "https://hk.iteshop.com/b_it/item/",
@@ -132,7 +132,7 @@ const App = () => (
                     to: {rotation:0},
                     duration: 300
                 }]}
-                photosTags={['Comme des Garçons', 'Simone Rocha', 'GLADYS TAMEZ MILLINERY']}
+                photosTags={['COMME DES GARÇONS', 'SIMONE ROCHA', 'GLADYS TAMEZ MILLINERY']}
                 products={{
                     shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
@@ -179,7 +179,7 @@ const App = () => (
                     to: {rotation:0},
                     duration: 300
                 }]}
-                photosTags={['ZUCCa', 'OFF-WHITE c/o VIRGIL ABLOH']}
+                photosTags={['ZUCCA', 'OFF-WHITE c/o VIRGIL ABLOH']}
                 products={{
                     shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
@@ -225,7 +225,7 @@ const App = () => (
                     to: {rotation:0},
                     duration: 300
                 }]}
-                photosTags={['Comme des Garçons']}
+                photosTags={['COMME DES GARÇONS']}
                 products={{
                     shopUrl: "https://hk.iteshop.com/b_it/item/",
                     imageUrl: 'https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/' ,
@@ -270,4 +270,4 @@ const App = () => (
     </article>
 );
 
-export default App;
+export default BitWomen;
