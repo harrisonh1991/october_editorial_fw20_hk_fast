@@ -1,18 +1,30 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 import BitMen from './pages/bit_men';
 import BitWomen from './pages/bit_women';
 import SitMen from './pages/sit_men';
 import SitWomen from './pages/sit_women';
 import './App.scss';
 
+const getPage = () => {
+    switch(process.env.REACT_APP_PAGE){
+        case 'bit_men':
+            return <BitMen />;
+        case 'bit_women':
+            return <BitWomen />;
+        case 'sit_men':
+            return <SitMen />;
+        case 'sit_women':
+            return <SitWomen />;
+    }
+}
+
 const App = () => (
-    <BrowserRouter>
-        <Route path="/bit_men" component={BitMen} />
-        <Route path="/bit_women" component={BitWomen} />
-        <Route path="/sit_men" component={SitMen} />
-        <Route path="/sit_women" component={SitWomen} />
-    </BrowserRouter>
+    <article className="App">
+        {getPage()}
+    </article>
 );
 
 export default App;

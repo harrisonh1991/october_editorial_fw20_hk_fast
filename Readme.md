@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+npm script with env variable:
+window10 powershell: ($env:REACT_APP_PAGE = "bit_women") -and (npm start) 
+window cmd: set "REACT_APP_PAGE=abcdef" && npm start
+linux: REACT_APP_PAGE=abcdef npm start
+ 
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -18,6 +23,11 @@ Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
+
+npm script with env variable:
+window10 powershell: ($env:REACT_APP_PAGE = "bit_women") -and (npm run build) 
+window cmd: set "REACT_APP_PAGE=abcdef" && npm run build
+linux: REACT_APP_PAGE=abcdef npm run build
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.

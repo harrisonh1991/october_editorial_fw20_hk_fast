@@ -1,13 +1,11 @@
 import React from 'react';
-import "core-js/stable";
-import "regenerator-runtime/runtime";
 import Hero from '../components/Hero/Hero.jsx';
 import ProductShow from "../components/productShow/productShow.jsx";
 import Image from '../components/Image/image.jsx';
 import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
 
 const BitWomen = () => (
-    <article className="App">
+    <>
         <Hero 
             banner={<Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967569764634.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967583768805.jpg'}}/>}
             title='The Sartorial Escape'
@@ -267,7 +265,7 @@ const BitWomen = () => (
             }}
             />
         </main>
-    </article>
+    </>
 );
 
 export default BitWomen;

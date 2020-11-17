@@ -1,6 +1,4 @@
 import React from 'react';
-import "core-js/stable";
-import "regenerator-runtime/runtime";
 import styles from "../App.module.scss";
 import HeroSit from '../components/Hero/Hero_sit';
 import ProductShow from "../components/productShow/productShow_sit";
@@ -10,7 +8,7 @@ import RedirectBannerCta from '../components/Redirect/redirectBannerCta_sit';
 import '../App.scss';
 
 const SitMen = () => (
-    <article className="App">
+    <>
         <header>
             <HeroSit 
                 {...{
@@ -203,7 +201,7 @@ const SitMen = () => (
                 }}
             />
         </footer>
-    </article>
+    </>
 );
 
 export default SitMen;
