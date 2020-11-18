@@ -197,7 +197,7 @@ const SitMen = () => (
                 media={(<Image image={{mobile: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804090613828.jpg', desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804098176043.jpg'}}/> )} 
                 cta={{
                     link: '/s_it/landingPage/trend-editorial-w',
-                    content: 'DISCOVER NOW'
+                    content: 'Discover The Womenswear Guide'
                 }}
             />
         </footer>
