@@ -7,16 +7,14 @@ import RedirectBannerCta from '../components/Redirect/redirectBannerCta.jsx';
 const BitMen = () => (
     <>
         <Hero {...{
-                banner: <Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566866908.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967566252739.jpg'}}/>,
+                banner: <Image image={{ mobile: "//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967571767174.jpg", desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/1605496758138278.jpg'}}/>,
                 title: 'The Sartorial Escape',
-                content: "The shedding of autumn leaves mark a time of great fluidity and change, but the fashion landscape for FW20 conversely sees a graceful return to the reliable, timeless trends of decades past. This winter, dive into an ode to classics – but with a modern twist. From traditional autumn prints to dark romantic Victoriana, discover our selection of the season’s coolest womenswear looks."
-            }}
-        />
-        <main className="main">
-            <ProductShow 
+                content: "Those who understand the importance of a fashionable winter are likely to claim the season as the best three months of the year, but why? As the winds blow harder and the air turns sharper, heavy outerwear and smart layering become our best defenses against the elements. So this season, we look towards five distinct trends to keep in our arsenals – from efficient utility to denim on denim, make sure your winter is as smooth sailing as our curated collection."
+        }}/>
+            <ProductShow
                 title="Infinite Utility" 
                 content="It’s nothing new — utilitarian elements have been at the forefront of fashion for longer than we can remember, but for FW20, utility takes a step up through a less intimidating lens by combining a graceful balance of function and contemporary tailoring. Introducing LA-based label STAMPD with their harness strap vest bomber jacket and ENGINEERED GARMENTS with their staple multi-pocket cargo pants. For the more daring, _JULIUS opts for a gas mask-inspired aesthetic with their distressed textured cargo pants, chiming in to the avant-garde."
-                scrollMagicItems={[{
+                scrollMagicItems= {[{
                     triggerElement: 'sm1_1',
                     children:(<Image image={{mobile: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/16054967580591254.jpg', desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/16/1605496757704170.jpg'}}/>),
                     from: {rotation:3, marginLeft:10, marginRight: 10},
