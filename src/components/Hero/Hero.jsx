@@ -28,9 +28,9 @@ const Hero = props => {
                 triggerHook: "onLeave",
                 duration: "100%",
             })
-                .setPin(containerRef.current)
-                .on("progress", onPinScrollProgress)
-                .addTo(controller);
+            .setPin(containerRef.current)
+            .on("progress", onPinScrollProgress)
+            .addTo(controller);
         }
     }, []);
 

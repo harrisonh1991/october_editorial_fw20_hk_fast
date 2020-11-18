@@ -23,7 +23,7 @@ const SitWomen = () => (
         </header>
         <main className={['landPg', styles.container].join(' ')}>
             <ProductShow 
-                banner1={(<Image image={{src: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804104418372.jpg'}}/>)}
+                banner1={(<Image image={{src: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/18/16056801689444863.jpg'}}/>)}
                 title="Off the Grid" 
                 content="Tick your boxes for check and plaid this season as traditional patterns make a return with both statement and minimalistic pieces from brands such as jouetie and BEAMS BOY. From turtleneck sweaters and skirts to stand-out overcoats, bolster your winter ensembles with our curated selection below to make those colder nights that much toastier. "
                 banner2={(<Image image={{mobile: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804095187749.jpg', desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804087732769.jpg'}} />)}
@@ -196,7 +196,7 @@ const SitWomen = () => (
                 media={(<Image image={{mobile: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804094796412.jpg', desktop: '//ithk-pro-itmall-resources.oss-cn-hongkong.aliyuncs.com/2/2020/11/17/16055804086062785.jpg'}}/> )} 
                 cta={{
                     link: '/s_it/landingPage/trend-editorial-m',
-                    content: 'DISCOVER NOW'
+                    content: 'Discover The Menswear Guide'
                 }}
             />
         </footer>
